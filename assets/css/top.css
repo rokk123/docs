@@ -1,0 +1,44 @@
+section{
+    line-height: 62px;
+}
+.epam-bar{
+    line-height: 58px; /*why it works*/
+    background-color: #454446;
+    height: 62px;
+
+}
+/*epam-logo position*/
+.epam-logo{
+    vertical-align: middle;
+
+    width: 100px;
+    padding:0 20px;
+    display:inline-block;
+
+    height: 100%;
+
+}
+.epam-logo img{
+    height:32px;
+margin-top:16px;
+}
+.epam-bar span{
+    vertical-align:middle;
+    display:inline-block;
+    width:100px;
+    height: 62px;
+    font-family: Oswald, serif;
+    color:#7be7f8;
+    font-size: 20px;
+}
+.epam-bar-search{    display: inline-block;
+    height: 62px;
+    vertical-align: middle;
+    float:right;
+    margin-right:20px;
+}
+.fa.fa-search.fa-flip-horizontal{
+    font-family: FontAwesome, serif;
+    color: #ccc;
+    font-size: 22px;
+}
